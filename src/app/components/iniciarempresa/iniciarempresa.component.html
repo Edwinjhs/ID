@@ -1,0 +1,52 @@
+<section class="header">
+  <div>
+    <a href="home"><img src="assets/img/logo-id.svg" alt="logo-ID" /></a>
+  </div>
+  <div class="las-a">
+    <a href="home" class="hover-a"><h1>Inicio</h1></a>
+    <a href="iniciarjoven" class="hover-a"><h1>SoyJovenDigital</h1></a>
+  </div>
+</section>
+<hr />
+<div class="boxall">
+    <div class="boxformulario">
+        <form action="">
+        <h1 class="title">INICIA SESIÓN</h1>
+        <label>
+            <div class="usuariopw2">
+            <i class="fa-sharp fa-solid fa-user"></i>
+            <input
+                autocomplete="off"
+                maxlength="30"
+                minlength="5"
+                placeholder="NIT J-xxxxxxx"
+                type="text"
+                id="username"/>
+            </div>
+            <span class="error" id="error-user">El usuario esta incorrecto</span>
+        </label>
+        <label>
+            <div class="usuariopw2">
+            <i class="fa-sharp fa-solid fa-lock"></i>
+            <input
+                minlength="6"
+                maxlength="15"
+                placeholder="password"
+                type="password"
+                id="password"/>
+            </div>
+            <span class="error" id="error-pw">La contraseña debe tener al menos 6 caracteres</span>
+        </label>
+        <a href="#" class="link">REGISTRARME</a>
+        <a href="#" class="link">¿Olvidaste tú contraseña?</a>
+        <button
+            type="button"
+            routerLink="/postulantes"
+            routerLinkActive="active-link"
+            class="nav-link"
+            id="button">
+            Entrar
+        </button>
+        </form>
+    </div>
+</div>

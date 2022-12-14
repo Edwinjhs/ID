@@ -1,0 +1,80 @@
+.quienessomos{
+    padding: 30px;
+    margin: 40px;
+    background-color: #ff48003d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.quienessomos h1{
+    margin-bottom: 20px;
+}
+.textoaliados{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.aliados img{
+    margin: 1rem 0px;
+    width: 200px;
+}
+
+.aliados{
+background-color: #FF4700;
+width: 100%;
+}
+
+.barraaliados{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-flow: row wrap;
+}
+
+.comotrabajamos{
+    display: flex;
+    margin-top: 10px;
+    padding: 30px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.subcomotrabajamos{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: #ff4800b6;
+    padding: 20px;
+    border-radius: 25px;
+    width: 300px;
+    margin: 20px
+}
+
+@media screen and (max-width: 600px){
+    .quienessomos{
+        padding: 10px;
+        margin: 20px;
+        background-color: #ff48003d;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+
+    }
+    .quienessomos h1{
+        margin-bottom: 15px;
+    }
+
+}

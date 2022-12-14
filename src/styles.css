@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Codec', sans-serif;
+}
+body{
+  background-color: #E3DFDF;
+
+}
+
+
+  @font-face {
+    font-family: 'Codec';
+    src: url(../src/assets/img/CodecPro-ExtraBold.ttf);
+  }

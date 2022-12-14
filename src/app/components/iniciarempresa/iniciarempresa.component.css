@@ -1,0 +1,191 @@
+.boxall{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 100px;
+
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.las-a{
+    display: flex;
+    padding: 10px;
+}
+.hover-a:hover{
+    background :rgb(247, 122, 5);
+}
+.las-a a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.msjbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 2px;
+}
+hr{
+    margin: 2rem 0;
+    height: 10px;
+    background: #FF4700;
+}
+
+.boxformulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px 10px rgba(10, 8, 3, 0.7);
+    border-radius: 10px;
+}
+form .title{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+form label{
+    margin-bottom: 35px;
+}
+form label .usuariopw2{
+    display: flex;
+}
+form label .usuario2 i{
+    margin-top: 7px;
+}
+form label .fa-solid {
+    font-size: 20px;
+    color: #FF4700;
+    margin-right: 10px;
+}
+form label input{
+    background-color: rgba(153, 153, 153, 0.178);
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 2px rgb(111, 110, 114);
+    font-size: 20px;
+    padding: 5px;
+
+}
+form label input::placeholder {
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.error {
+    padding: 10px;
+    color: red;
+    display: none;
+
+}
+form link{
+    color:black;
+    margin: 15px;
+}
+form button{
+    color:white;
+    font-weight: 800;
+    border: none;
+
+    background: rgb(247, 122, 5);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5px;
+}
+form button:hover{
+    background: rgb(90, 48, 9);
+}
+body section form label select{
+    background-color: rgba(14, 11, 6, 0.897);
+    padding: 30px;
+    border: 1px solid black;
+}
+section form input.boton_register{
+    color:white;
+    font-weight: 800;
+    border: none;
+    background: linear-gradient(90deg, rgba(37,122,33,1) 0%, rgba(30,153,161,0.5074229520909926) 50%, rgba(0,212,255,1) 100%);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5px;
+}
+section form input.boton_register:hover{
+    background:linear-gradient(90deg, rgb(23, 77, 21) 0%, rgba(14, 74, 78, 0.507) 50%, rgb(0, 86, 104) 100%);
+}
+section form label input::placeholder {
+    color: rgba(0, 0, 0, 0.479);
+}
+header{
+    padding: 60px;
+}
+.back_section {
+    padding: 20px;
+    margin-left: 30px;
+}
+.g-recaptcha{
+    padding: 20px;
+}
+.logo1 {
+    display: flex;
+    margin-left: 200px;
+}
+@media screen and (max-width: 500px){
+    form{
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        text-align: center;
+        padding: 30px;
+        width: 340px;
+        margin: 50px 10px;
+        box-shadow: 0 5px 10px 10px rgba(12, 9, 4, 0.7);
+        border-radius: 10px;
+    }
+    form .title{
+        font-size: 25px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    form label .usuariopw2{
+        display: flex;
+
+    }
+    form label input{
+        width: 240px;
+    }
+    .msjbox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        margin: 40px 2px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxall{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 70px 10px;
+    }
+}

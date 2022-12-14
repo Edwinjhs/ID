@@ -1,0 +1,101 @@
+.id_propuestas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.id_logo{
+    width: 343px;
+    height: 106px;
+}
+.id_header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.user_id{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.andres_id{
+    width: 120px;
+    height: 160px;
+}
+.id_text_login{
+    font-family: "Codec";
+    font-size: 10pt;
+}
+hr{
+    margin: 2rem 0;
+    height: 10px;
+    background: #FF4700;
+}
+.id_perficient{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 380px;
+    margin: 3rem auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+    padding: 20px 20px;
+}
+.id_perficient div{
+    display: flex;
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+.logo_propuesta{
+    width: 340px;
+    height: 270px;
+}
+.id_perficient figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.id_perficient button{
+    color: white;
+    padding: 20px 20px;
+    border-radius: 25px;
+    border: none;
+    font-family: "Codec";
+    font-size: 16pt;
+    background: #FF4700;
+    margin-bottom: 3rem;
+    box-shadow: 5px 5px 5px grey;
+}
+.id_warning{
+    color: #F80101;
+    text-align: center;
+    font-size: 12pt;
+    font-family: "Codec";
+    margin-bottom: 3rem;
+}
+.id_vacantes{
+    margin-bottom: 3rem;
+    font-family: "Codec";
+    font-size: 20pt;
+    font-weight: bold;
+}
+.check{
+    margin-right: .5rem;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (min-width: 650px){
+    .id_propuestas{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .iniciado{
+        display: flex;
+        justify-content: space-between;
+    }
+}

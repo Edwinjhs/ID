@@ -1,0 +1,57 @@
+.components-text{
+  padding: 10px;
+  flex-direction: column;
+}
+.nav{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.container-fluid{
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar-brand img{
+  margin-right: 300px;
+}
+.text-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.text-nav a{
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  outline-style: none;
+}
+.futuro{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+}
+.unete{
+  display: flex;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+}
+.img-javier{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-nav a:hover{
+  background: orangered;
+  color: white;
+}
+@media screen and (max-width: 800px){
+  .navbar-brand img{
+    margin-right: 0px;
+  }
+}

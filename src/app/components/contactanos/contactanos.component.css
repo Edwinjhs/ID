@@ -1,0 +1,128 @@
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.inicio a{
+    font-size: 30px;
+}
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+}
+.titulos button{
+    width: 150px;
+    margin:30px 100px 0px 100px;
+    background: #FF4700;
+    border-radius: 10px;
+    border: 1px solid #FF4700;
+    color: white;
+}
+
+.aliados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.aliados img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+@media screen and (max-width:600px) {
+
+    .line__orange{
+        margin: 2rem 0;
+        height: 10px;
+
+    }
+
+    p{
+        text-align: center;
+    }
+
+    button{
+        width: 150px;
+        margin:30px 100px 0px 100px;
+        background: #FF4700;
+        border-radius: 10px;
+        border: 1px solid #FF4700;
+        color: white;
+    }
+
+    img{
+        width: 300px;
+        margin:30px 20px 20px 30px
+    }
+
+    .inicio{
+        margin: 20px;
+    }
+
+    .inicio a{
+        text-decoration: none;
+        color: #FF4700;
+    }
+    }
+
+    @media screen and (min-width:600px) {
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .line__orange{
+            margin: 2rem 0;
+            height: 10px;
+            background: #FF4700;
+
+        }
+
+        p{
+            text-align: center;
+        }
+
+        button{
+            width: 150px;
+            height: 30px;
+            /* margin:30px 500px 0px 700px; */
+            margin: 30px 0px 40px 600px;
+            background: #FF4700;
+            border-radius: 10px;
+            border: 1px solid #FF4700;
+            color: white;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+        }
+
+        .grid div{
+            margin: 50px;
+        }
+
+        img{
+            width: 300px;
+        }
+
+        .inicio{
+            margin: 20px;
+        }
+
+        .inicio a{
+            text-decoration: none;
+            color: #FF4700;
+        }
+    }
