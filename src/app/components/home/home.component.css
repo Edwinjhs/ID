@@ -4,3 +4,8 @@ div{
     justify-content: center;
     margin: 2rem 5px;
 }
+@media screen and (max-width: 708px){
+    div{
+        display: none;
+    }
+}
